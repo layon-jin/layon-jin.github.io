@@ -1,0 +1,284 @@
+.top-left{
+	position: absolute;
+	top: 8px;
+	left: 10px;
+	color: rgb(197, 60, 60);
+	font-family: Cambria;
+	margin: 40px;
+}
+.top-right{
+	position: absolute;
+	top: 8px;
+	right: 16px;
+	color: black;
+	margin: 40px;
+}
+
+#rd{
+background-color: sienna;
+width: 60%;
+height: 6%;
+color: white;
+font-family: Centaur;
+}
+.container{
+	position: relative;
+	font-family: Arial;
+}
+.text-block{
+	position: absolute;
+	top: 150px;
+	right: 70px;
+	background-color: whitesmoke;
+	color: black;
+	padding-left: 20px;
+	padding-right: 20px;
+
+}
+#butt{
+	width: 30%;
+	height: 8%;
+	background-color: sienna;
+	background-blend-mode: normal;
+	color: white;
+}
+#check{
+	background-color: #fff5ee;
+    border-top-style: hidden;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: -0px;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-right-style: solid;
+	margin-top: 0px;
+	background-blend-mode: luminosity;
+	
+}
+#text-block{
+	position: absolute;
+	top: 2px;
+	right: 105px;
+	background-color: none;
+	color: black;
+	padding-left: 20px;
+	padding-right: 20px;
+	font-size: 250%;
+	background-blend-mode: soft-light;
+}
+#text-b{
+	position: absolute;
+	top: 10px;
+	left: 105px;
+	background-color: none;
+	color: black;
+	padding-left: 20px;
+	padding-right: 20px;
+	font-size: 250%;
+}
+#btn{
+	border: none;
+	padding: 16px 32px;
+	text-align: center;
+	font-size: 10px;
+	margin: 4px 2px;
+	opacity: 0.8;
+	transition: 0.3s;
+	background-color: sienna;
+	color: white;
+}
+#btn:hover{opacity: 1;}
+.bttn{
+	border: none;
+	padding: 10px 20px;
+	text-align: center;
+	font-size: 10px;
+	margin: 4px 2px;
+	opacity: 0.8;
+	transition: 0.3s;
+	background-color: sienna;
+	color: white;
+}
+.bttn:hover{opacity: 5;}
+.zoom{
+	transition: transform .2s;
+	margin: 0 auto;
+}
+.zoom:hover{
+	-ms-transform: scale(1.5);
+	-webkit-transform: scale(1.5);
+	transform: scale(1.5);
+}
+.vic{
+	padding-top: 0%;
+	padding-bottom: 0%;
+}
+.text-bk{
+	position: absolute;
+	top: 300px;
+	left: 90px;
+	background-color: #fff5ee;
+	color: black;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-top: 20px;
+	padding-bottom: 30px;
+}
+#btnn{
+	border: none;
+	padding: 16px 30px;
+	text-align: center;
+	font-size: 10px;
+	margin: 2px 2px;
+	opacity: 0.8;
+	transition: 0.3s;
+	background-color: sienna;
+	color: white;
+}
+#btnn:hover{opacity: 1;}
+.fade-in{
+	opacity: 0;
+	-webkit-animation: fadeIn ease-in 1;
+	-moz-animation: fadeIn ease-in 1;
+	-webkit-animation-fill-mode: forwards;
+	animation-fill-mode: backwards;
+	-webkit-animation-duration: 1s;
+	-moz-animation-duration: 1s;
+	animation-duration: 1s;
+}
+.box{
+	
+	position: relative;
+	float: left;
+	border: 1px ;
+}
+#fl-right{
+	font-size: 270%;
+	color:  black;
+}
+#box{
+	font-family: Century;
+}
+#fort{
+	background-color: #fff5ee;
+	width: 100%;
+	height: 300px;
+}
+.pic-in{
+	padding:60px;
+	margin-left: 150px;
+}
+.form{
+	margin-left: 0.000000001%;
+	margin-top: 10%;
+	font-size: 10px;
+}
+#btn1{
+	border: none;
+	padding: 7px 16px;
+	text-align: center;
+	font-size: 10px;
+	margin: 4px 2px;
+	opacity: 0.8;
+	transition: 0.3s;
+	background-color: sienna;
+	color: white;
+	letter-spacing: 0.5px;
+}
+#btn1:hover{opacity: 1;}
+.b4ft{
+	width: 100%;
+	display: inline-flex;
+	border: none;
+	padding: none;
+	margin: 2	px;
+}
+#label{
+	border: none;
+	background-color: white;
+	font-size: 15px;
+	font-family: Century725 Cn BT;
+	opacity: 0.7;
+	letter-spacing: 1px;
+}
+.get{
+	font-size: 11px;
+}
+.free{
+	letter-spacing: 1px;
+	font-family: Futura Md BT;
+}
+.block-in{
+	background-color: whitesmoke;
+	width: 80%;
+	height: 90px;
+	margin-left: 13%;
+	border: none;
+	padding: none;
+	text-align: center;
+	font-size: 100%;
+	letter-spacing: 1px;
+	
+}
+.OC{
+	margin-left: 13%;
+	border: none;
+	padding: none;
+	margin: none;
+}
+#block1{
+	font-size: 160%;
+	color: black;
+	font-family: Georgia;
+}
+#test{
+	opacity: 1;
+	-webkit-animation: fadein 2s;
+	-moz-animation: fadein 2s;
+	-o-animation: fadein 2s;
+	-ms-animation:  fadeIn 2s;
+	animation: fadein 2s;
+}
+@keyframes fadein{
+	from{opacity: 0;}
+	to {opacity: 1;}
+}
+@-moz-keyframes fadein{
+	from{opacity: 0;}
+	to {opacity: 1;}
+}
+@-webkit-keyframes flash{
+	from,
+	50%, 
+	to{opacity: 1;}
+25%,
+75%{opacity: 0;}
+}
+@keyframes flash{
+	from,
+	50%,
+	to{opacity: 1;}
+	25%,
+	75%{opacity: 0;}
+}
+#flash{
+	-webkit-animation-name: flash;
+	animation-name: flash;
+}
+.con{
+	background-color: #fff5ee;
+}
+.footer{
+	background-color: black;
+	padding-left: 450px;
+	height: auto;
+	letter-spacing: 2px;
+	margin: none;
+}
+#ft{
+	background-color: black;
+	color:yellow;
+	text-align: center;
+	font-size: 290;
+
+}
